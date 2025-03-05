@@ -1,0 +1,41 @@
+{
+  "id": "pathfinder1e-asgor-npcs",
+  "title": "pathfinder1e asgor npcs",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11"
+  },
+  "relationships": {
+    "recommends": [
+      {
+        "id": "asgorcompendium",
+        "type": "module"
+      }
+    ]
+  },
+  "description": "Compendio compartido de npcs con las reglas de Asgor de Vandiem",
+  "authors": [
+    {
+      "name": "Vandiem",
+      "discord": "Vandiem"
+    },
+    {
+      "name": "Zava",
+      "discord": "Zavacarinnoso"
+    }
+  ],
+  "packs": [
+    {
+      "name": "nuevas-clases-npc",
+      "label": "Nuevas clases npc",
+      "path": "packs/nuevas-clases-npc",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf1"
+    }
+  ]
+}
