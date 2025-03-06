@@ -2,6 +2,7 @@
   "id": "pathfinder1e-asgor-npcs",
   "title": "pathfinder1e asgor npcs",
   "version": "1.0.0",
+  "manifest": "https://github.com/Rodzavinf/pathfinder1e-asgor-npcs/blob/main/module.json",
   "compatibility": {
     "minimum": "11",
     "verified": "11"
