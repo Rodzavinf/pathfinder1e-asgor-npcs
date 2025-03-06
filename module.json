@@ -10,7 +10,8 @@
     "recommends": [
       {
         "id": "asgorcompendium",
-        "type": "module"
+        "type": "module",
+        "compatibility": {}
       }
     ]
   },
@@ -31,11 +32,12 @@
       "label": "Nuevas clases npc",
       "path": "packs/nuevas-clases-npc",
       "type": "Item",
+      "system": "pf1",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "system": "pf1"
+      }
     }
-  ]
+  ],
+  "url": "https://github.com/Rodzavinf/pathfinder1e-asgor-npcs"
 }
